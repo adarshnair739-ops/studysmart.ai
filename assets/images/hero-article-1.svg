@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" width="800" height="480">
+  <defs>
+    <linearGradient id="art1Grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F4EFEA"/>
+      <stop offset="100%" stop-color="#E9E0D4"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#3A3A38" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="480" rx="20" fill="url(#art1Grad)"/>
+  
+  <!-- Subtle background circles -->
+  <circle cx="200" cy="140" r="90" fill="#E4DCD0" opacity="0.4"/>
+  <circle cx="650" cy="320" r="130" fill="#DFD6C8" opacity="0.3"/>
+
+  <!-- Center composition: 5 Tool Archetype Cards arranged harmoniously -->
+  
+  <!-- Tool 1: Note Taking (Notepad / Transcription) -->
+  <g transform="translate(90, 110)" filter="url(#cardShadow)">
+    <rect width="170" height="220" rx="14" fill="#FFFFFF" stroke="#E5DDD2" stroke-width="1.5"/>
+    <rect x="20" y="24" width="40" height="40" rx="10" fill="#EFF3EF"/>
+    <!-- Microphone & Note Icon -->
+    <path d="M40 33 C40 30.8 38.2 29 36 29 C33.8 29 32 30.8 32 33 L32 41 C32 43.2 33.8 45 36 45 C38.2 45 40 43.2 40 41 Z" fill="#7C8F7A"/>
+    <path d="M29 39 C29 43 32 46 36 46 C40 46 43 43 43 39" stroke="#7C8F7A" stroke-width="2" fill="none"/>
+    <line x1="36" y1="46" x2="36" y2="52" stroke="#7C8F7A" stroke-width="2"/>
+    <rect x="20" y="80" width="85" height="12" rx="4" fill="#3A3A38"/>
+    <rect x="20" y="105" width="130" height="8" rx="3" fill="#D5CCC1"/>
+    <rect x="20" y="123" width="115" height="8" rx="3" fill="#E5DFD5"/>
+    <rect x="20" y="141" width="125" height="8" rx="3" fill="#E5DFD5"/>
+    <rect x="20" y="172" width="70" height="24" rx="6" fill="#EFF3EF"/>
+    <text x="32" y="188" font-family="'Inter', sans-serif" font-size="11" font-weight="600" fill="#7C8F7A">NOTES</text>
+  </g>
+
+  <!-- Tool 2: Writing & Grammar (Pencil / Revision) -->
+  <g transform="translate(315, 70)" filter="url(#cardShadow)">
+    <rect width="180" height="240" rx="14" fill="#FFFFFF" stroke="#7C8F7A" stroke-width="2"/>
+    <rect x="20" y="24" width="40" height="40" rx="10" fill="#EFF3EF"/>
+    <!-- Fountain Pen Icon -->
+    <path d="M43 31L47 35L35 47L29 48L30 42Z" fill="#7C8F7A"/>
+    <circle cx="35" cy="41" r="2" fill="#FFFFFF"/>
+    <rect x="20" y="80" width="105" height="12" rx="4" fill="#3A3A38"/>
+    <rect x="20" y="105" width="140" height="8" rx="3" fill="#D5CCC1"/>
+    <rect x="20" y="123" width="130" height="8" rx="3" fill="#7C8F7A" opacity="0.6"/>
+    <rect x="20" y="141" width="120" height="8" rx="3" fill="#D5CCC1"/>
+    <rect x="20" y="159" width="95" height="8" rx="3" fill="#E5DFD5"/>
+    <rect x="20" y="188" width="80" height="26" rx="6" fill="#7C8F7A"/>
+    <text x="31" y="205" font-family="'Inter', sans-serif" font-size="11" font-weight="600" fill="#FFFFFF">WRITING</text>
+  </g>
+
+  <!-- Tool 3: Research & Evidence (Consensus / Citation) -->
+  <g transform="translate(545, 110)" filter="url(#cardShadow)">
+    <rect width="170" height="220" rx="14" fill="#FFFFFF" stroke="#E5DDD2" stroke-width="1.5"/>
+    <rect x="20" y="24" width="40" height="40" rx="10" fill="#EFF3EF"/>
+    <!-- Magnifier / Citation Icon -->
+    <circle cx="36" cy="39" r="9" stroke="#7C8F7A" stroke-width="2.5" fill="none"/>
+    <line x1="43" y1="46" x2="51" y2="54" stroke="#7C8F7A" stroke-width="3" stroke-linecap="round"/>
+    <rect x="20" y="80" width="95" height="12" rx="4" fill="#3A3A38"/>
+    <rect x="20" y="105" width="130" height="8" rx="3" fill="#D5CCC1"/>
+    <rect x="20" y="123" width="115" height="8" rx="3" fill="#E5DFD5"/>
+    <rect x="20" y="141" width="120" height="8" rx="3" fill="#E5DFD5"/>
+    <rect x="20" y="172" width="90" height="24" rx="6" fill="#EFF3EF"/>
+    <text x="30" y="188" font-family="'Inter', sans-serif" font-size="11" font-weight="600" fill="#7C8F7A">RESEARCH</text>
+  </g>
+
+  <!-- Bottom Floating Badges: Flashcards & Study Planner -->
+  <g transform="translate(180, 360)" filter="url(#cardShadow)">
+    <rect width="210" height="60" rx="12" fill="#FFFFFF" stroke="#E5DDD2" stroke-width="1.5"/>
+    <circle cx="32" cy="30" r="16" fill="#EFF3EF"/>
+    <!-- Stack of flashcards -->
+    <rect x="25" y="22" width="14" height="16" rx="2" fill="#7C8F7A"/>
+    <text x="60" y="30" font-family="'Inter', sans-serif" font-size="13" font-weight="700" fill="#3A3A38">Flashcards &amp; Quizzes</text>
+    <text x="60" y="46" font-family="'Inter', sans-serif" font-size="11" fill="#7C8F7A">Spaced Retrieval Systems</text>
+  </g>
+
+  <g transform="translate(430, 360)" filter="url(#cardShadow)">
+    <rect width="210" height="60" rx="12" fill="#FFFFFF" stroke="#E5DDD2" stroke-width="1.5"/>
+    <circle cx="32" cy="30" r="16" fill="#EFF3EF"/>
+    <!-- Calendar icon -->
+    <rect x="25" y="22" width="14" height="16" rx="2" fill="#7C8F7A"/>
+    <line x1="25" y1="26" x2="39" y2="26" stroke="#FFFFFF" stroke-width="1.5"/>
+    <text x="60" y="30" font-family="'Inter', sans-serif" font-size="13" font-weight="700" fill="#3A3A38">AI Study Planners</text>
+    <text x="60" y="46" font-family="'Inter', sans-serif" font-size="11" fill="#7C8F7A">Adaptive Scheduling</text>
+  </g>
+</svg>
